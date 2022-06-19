@@ -7,5 +7,17 @@
             "name": "Matheus Ribeiro"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "MatheusBRDev\\WordSeach\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "doctrine/orm": "^2.11",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "php-di/php-di": "^2.1"
+    }
 }
