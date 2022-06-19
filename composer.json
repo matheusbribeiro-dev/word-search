@@ -1,0 +1,11 @@
+{
+    "name": "matheusbrdev/word-search",
+    "description": "Projeto que busca e armazena uma palavra",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matheus Ribeiro"
+        }
+    ],
+    "require": {}
+}
