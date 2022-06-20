@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MatheusBRDev\\WordSeach\\": "src/"
+            "MatheusBRDev\\WordSearch\\": "src/"
         }
     },
     "require": {
