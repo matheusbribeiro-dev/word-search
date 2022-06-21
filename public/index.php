@@ -29,7 +29,7 @@ $response = $controller->handle($serverRequest);
 // Emit headers iteratively:
  foreach ($response->getHeaders() as $name => $values) {
      foreach ($values as $value) {
-             header(sprintf('%s: %s', $name, $value), false);
+        header(sprintf('%s: %s', $name, $value), false);
      }
  }
 
