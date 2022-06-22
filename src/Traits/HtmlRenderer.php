@@ -9,7 +9,7 @@ trait HtmlRenderer
         extract($data);
 
         ob_start();
-        require __DIR__ . '/../../views/' . $path;
+        require __DIR__ . '/../../resources/views/' . $path;
 
         return ob_get_clean();
     }
