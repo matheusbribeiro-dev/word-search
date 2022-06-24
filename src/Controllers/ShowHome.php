@@ -14,6 +14,7 @@ class ShowHome implements RequestHandlerInterface
 
     public function handle(ServerRequestInterface $request): ResponseInterface
     {
+
         $html = $this->render('home.php', [
             'title' => 'WordSearch'
         ]);

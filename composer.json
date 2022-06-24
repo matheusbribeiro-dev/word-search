@@ -10,7 +10,10 @@
     "autoload": {
         "psr-4": {
             "MatheusBRDev\\WordSearch\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
     },
     "require": {
         "psr/http-message": "^1.0",
