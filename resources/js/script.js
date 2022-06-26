@@ -1,1 +1,3 @@
-console.log('teste');
+import formFeatures from './features/form';
+
+formFeatures();
