@@ -1,3 +1,3 @@
-import formFeatures from './features/form';
+import wordSearchFeatures from './features/word-search-features';
 
-formFeatures();
+wordSearchFeatures();

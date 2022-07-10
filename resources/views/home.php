@@ -20,7 +20,7 @@
   <main class="container">
     <header>
       <h1>WordSearch</h1>
-      <form id="wordSearch">
+      <form id="wordSearchForm" name="wordSearchForm">
         <input type="text" name="word" placeholder="Busque ou insira uma palavra">
 
         <button class="button-insert">
