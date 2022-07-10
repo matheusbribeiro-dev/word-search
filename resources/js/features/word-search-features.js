@@ -7,4 +7,6 @@ export default function () {
     form: new FormClass('wordSearchForm'),
     words: new WordsClass()
   });
+
+  wordSearch.initFeatures();
 }

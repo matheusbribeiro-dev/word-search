@@ -69,6 +69,26 @@ main section .word-card .word-card-title {
   color: white;
 }
 
+main section .word-card .word-card-meaning {
+  display: none;
+}
+
+@keyframes accordion {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+main section .word-card .word-card-meaning.active {
+  display: block !important;
+  animation: accordion .3s forwards;
+}
+
 main section .word-card .word-card-meaning p {
   margin: 7px 0;
 }

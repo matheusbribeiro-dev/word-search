@@ -3,4 +3,10 @@ export default class WordSearchClass {
     this._form = form;
     this._words = words;
   }
+
+  initFeatures() {
+    this._words.accordionInWords();
+
+    return this;
+  }
 }
