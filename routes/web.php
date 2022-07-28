@@ -1,7 +1,11 @@
 <?php
 
-use MatheusBRDev\WordSearch\Controllers\ShowHome;
+use MatheusBRDev\WordSearch\Controllers\{
+    ShowHome,
+    SaveWordController
+};
 
 return [
-    '/' => ShowHome::class
+    '/' => ShowHome::class,
+    '/salvar-palavra' => SaveWordController::class
 ];
