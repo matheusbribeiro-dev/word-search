@@ -21,9 +21,9 @@
     <header>
       <h1>WordSearch</h1>
       <form id="wordSearchForm" name="wordSearchForm">
-        <input type="text" name="word" placeholder="Busque ou insira uma palavra">
+        <input type="text" id="word" name="word" placeholder="Busque ou insira uma palavra">
 
-        <button class="button-insert">
+        <button id="buttonInsert" class="button-insert">
           <img src="<?= asset('img/download-icon.svg') ?>" alt="baixar">
         </button>
       </form>

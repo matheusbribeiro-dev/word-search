@@ -6,6 +6,7 @@ export default class WordSearchClass {
 
   initFeatures() {
     this._words.accordionInWords();
+    this._form.formSubmit();
 
     return this;
   }

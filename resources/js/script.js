@@ -1,3 +1,3 @@
 import wordSearchFeatures from './features/word-search-features';
 
-wordSearchFeatures();
+window.onload = wordSearchFeatures;
