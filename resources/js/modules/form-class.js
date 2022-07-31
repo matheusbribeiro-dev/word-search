@@ -1,3 +1,5 @@
+import Toastify from 'toastify-js';
+
 export default class FormClass {
   constructor ({form, api}) {
     this._element = document.forms[form];
@@ -12,7 +14,19 @@ export default class FormClass {
     const word = this.getElement().word;
     const response = await this._api.post('/salvar-palavra', new FormData(form));
 
-    console.log(response.data);
+    if (response.data.message) {
+      Toastify({
+        text: response.data.message,
+        duration: 3000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "red",
+        }
+      }).showToast();
+    }
   }
 
   formSubmit() {
